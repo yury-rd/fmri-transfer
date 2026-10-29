@@ -21,7 +21,7 @@ source .venv/bin/activate
 python -m pip install -r requirements.txt
 
 curl --fail --location \
-  https://github.com/yury-rd/fmri-connectivity-prediction/releases/download/v1.0.0/msc_sessions123.npz \
+  https://github.com/yury-rd/fmri-transfer/releases/download/v1.0.0/msc_sessions123.npz \
   --output data/msc_sessions123.npz
 
 python run.py --output results/demo.json
@@ -35,9 +35,9 @@ mode applies the released ADNI coefficients to the included Midnight Scan Club
 tables and coefficients. Omit `--output` to print the result as JSON.
 
 The MSC array is distributed as a
-[release asset](https://github.com/yury-rd/fmri-connectivity-prediction/releases/download/v1.0.0/msc_sessions123.npz).
+[release asset](https://github.com/yury-rd/fmri-transfer/releases/download/v1.0.0/msc_sessions123.npz).
 The download above is needed for `--mode msc` and the full test suite. The
-[complete project ZIP](https://github.com/yury-rd/fmri-connectivity-prediction/releases/download/v1.0.0/fmri-connectivity-prediction-v1.0.0.zip)
+[complete project ZIP](https://github.com/yury-rd/fmri-transfer/releases/download/v1.0.0/fmri-transfer-v1.0.0.zip)
 already includes it. All other data files are in the repository.
 
 The directory can be moved or renamed; `run.py` locates its data relative to its
@@ -122,13 +122,11 @@ float64 arithmetic.
 
 ## Source and citation
 
-This is a standalone copy of
-[`papers/01_response_transfer` from fMRI Observation Benchmarks v1.0.0](https://github.com/cornada/fmri-observation-benchmarks/tree/v1.0.0/papers/01_response_transfer),
-including its shared response-model code and the MSC release data. The nested
-paper directory and the shared `src/` directory have been removed. Only this
-paper's modules and dependencies are retained. The model calculations are
-unchanged; imports, the command-line runner, and documentation use the new layout.
-Data checksums are listed in [data/SHA256SUMS](data/SHA256SUMS).
+The code and prepared data are available from
+[yury-rd/fmri-transfer](https://github.com/yury-rd/fmri-transfer).
+The [v1.0.0 release](https://github.com/yury-rd/fmri-transfer/releases/tag/v1.0.0)
+includes a complete project ZIP and the MSC array. Data checksums are listed in
+[data/SHA256SUMS](data/SHA256SUMS).
 
 See [CITATION.md](CITATION.md) for the manuscript citation. Code is distributed
-under the [MIT license](LICENSE), with the upstream copyright notice retained.
+under the [MIT license](LICENSE).

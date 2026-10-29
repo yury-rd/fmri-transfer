@@ -1,0 +1,133 @@
+{
+  "n": 10,
+  "personal_vs_base3": {
+    "candidate_mean_loss": 0.004331791930146505,
+    "reference_mean_loss": 0.0045741250390344355,
+    "mean_reduction": 0.00024233310888793031,
+    "relative_mean_reduction": 0.05297911771539264,
+    "participants_improved": 6,
+    "participant_differences": [
+      0.0006808397786515073,
+      0.00010144734640529047,
+      0.0003777607582381745,
+      0.00255279382499677,
+      0.0012550838313983535,
+      0.00024080259150355797,
+      -0.00023125140499058623,
+      -0.0006811872496798252,
+      -0.0009697380314567161,
+      -0.0009032203561872235
+    ]
+  },
+  "personal_vs_fixed_adni_mean_history": {
+    "candidate_mean_loss": 0.004331791930146505,
+    "reference_mean_loss": 0.0047696171232500945,
+    "mean_reduction": 0.00043782519310358946,
+    "relative_mean_reduction": 0.09179462036257709,
+    "participants_improved": 8,
+    "participant_differences": [
+      0.00016223415870102696,
+      -0.0001879872506072534,
+      0.0009667299985514047,
+      0.0016845134632462698,
+      0.0008654635615359093,
+      0.00011224858097858307,
+      0.0006487681593277585,
+      -2.980007813319606e-05,
+      8.327190291004382e-05,
+      7.280943452534806e-05
+    ]
+  },
+  "personal_vs_adni_mean_target": {
+    "candidate_mean_loss": 0.004331791930146505,
+    "reference_mean_loss": 0.0053258643203111114,
+    "mean_reduction": 0.0009940723901646063,
+    "relative_mean_reduction": 0.18664996522227162,
+    "participants_improved": 6,
+    "participant_differences": [
+      -1.6847568549695994e-05,
+      0.0007056770235160008,
+      0.0019454921852291632,
+      0.004315970861532872,
+      0.0022661994342569125,
+      0.0007474437856327242,
+      -9.899525439026682e-05,
+      -0.0006963650633761585,
+      0.0021705438831671206,
+      -0.0013983953853726086
+    ]
+  },
+  "folds": [
+    {
+      "msc_index": 0,
+      "personal_loss": 0.003134660151104567,
+      "base3_loss": 0.003815499929756074,
+      "fixed_adni_mean_history_loss": 0.003296894309805594,
+      "adni_mean_target_loss": 0.003117812582554871
+    },
+    {
+      "msc_index": 1,
+      "personal_loss": 0.003439413427455789,
+      "base3_loss": 0.0035408607738610797,
+      "fixed_adni_mean_history_loss": 0.003251426176848536,
+      "adni_mean_target_loss": 0.00414509045097179
+    },
+    {
+      "msc_index": 2,
+      "personal_loss": 0.0033464675493890014,
+      "base3_loss": 0.003724228307627176,
+      "fixed_adni_mean_history_loss": 0.004313197547940406,
+      "adni_mean_target_loss": 0.005291959734618165
+    },
+    {
+      "msc_index": 3,
+      "personal_loss": 0.0042981575944143376,
+      "base3_loss": 0.0068509514194111075,
+      "fixed_adni_mean_history_loss": 0.005982671057660607,
+      "adni_mean_target_loss": 0.00861412845594721
+    },
+    {
+      "msc_index": 4,
+      "personal_loss": 0.003907431710661551,
+      "base3_loss": 0.005162515542059904,
+      "fixed_adni_mean_history_loss": 0.00477289527219746,
+      "adni_mean_target_loss": 0.006173631144918463
+    },
+    {
+      "msc_index": 5,
+      "personal_loss": 0.003021458116844702,
+      "base3_loss": 0.00326226070834826,
+      "fixed_adni_mean_history_loss": 0.0031337066978232853,
+      "adni_mean_target_loss": 0.0037689019024774264
+    },
+    {
+      "msc_index": 6,
+      "personal_loss": 0.006377373940733097,
+      "base3_loss": 0.006146122535742511,
+      "fixed_adni_mean_history_loss": 0.007026142100060855,
+      "adni_mean_target_loss": 0.00627837868634283
+    },
+    {
+      "msc_index": 7,
+      "personal_loss": 0.006103378792394062,
+      "base3_loss": 0.005422191542714237,
+      "fixed_adni_mean_history_loss": 0.006073578714260866,
+      "adni_mean_target_loss": 0.005407013729017904
+    },
+    {
+      "msc_index": 8,
+      "personal_loss": 0.004446431126794634,
+      "base3_loss": 0.0034766930953379176,
+      "fixed_adni_mean_history_loss": 0.0045297030297046775,
+      "adni_mean_target_loss": 0.006616975009961754
+    },
+    {
+      "msc_index": 9,
+      "personal_loss": 0.005243146891673306,
+      "base3_loss": 0.004339926535486083,
+      "fixed_adni_mean_history_loss": 0.005315956326198654,
+      "adni_mean_target_loss": 0.0038447515063006975
+    }
+  ],
+  "scope": "No-refit cross-cohort retrospective transport. MSC was previously used in programme development. Not untouched external confirmation. Sessions1,2to3 only."
+}

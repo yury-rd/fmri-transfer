@@ -1,0 +1,14 @@
+{
+  "atlas_loss": 0.012305159646634152,
+  "admissible_baseline_losses": {
+    "additive": 0.019497810392736906,
+    "design_summary": 0.017108910796329552,
+    "future_base": 0.014804211822228384,
+    "reliability": 0.01706890884450332,
+    "seen_path": 0.020223960517637106,
+    "static_identity": 0.018990619384579247,
+    "universal": 0.01711147071451962
+  },
+  "best_admissible_baseline_loss": 0.013486469451127815,
+  "gain_over_best_admissible_baseline": 0.06903613512842495
+}

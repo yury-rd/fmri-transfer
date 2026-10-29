@@ -16,8 +16,8 @@ Estimates Across Preprocessing Pipelines*. Under review at the
 }
 ```
 
-The code and released data come from
-[fMRI Observation Benchmarks, version 1.0.0](https://github.com/cornada/fmri-observation-benchmarks/releases/tag/v1.0.0).
+The code and prepared data are available in
+[fmri-transfer, version 1.0.0](https://github.com/yury-rd/fmri-transfer/releases/tag/v1.0.0).
 When using the MSC fields, also cite the
 [Midnight Scan Club dataset, OpenNeuro ds000224, version 1.0.4](https://doi.org/10.18112/openneuro.ds000224.v1.0.4)
 and the associated publication listed in that record.

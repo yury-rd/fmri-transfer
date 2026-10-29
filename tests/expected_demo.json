@@ -1,0 +1,31 @@
+{
+  "scope": "Synthetic software example; these are not paper measurements",
+  "participants": 7,
+  "personal_loss": 1.0011146021139996,
+  "seven_control_losses": {
+    "additive": 6.432473473945381,
+    "design_summary": 2.634455092170356,
+    "future_base": 2.6336753516065174,
+    "reliability": 2.5855154596980334,
+    "seen_path": 2.757855347564685,
+    "static_identity": 2.85929067074659,
+    "universal": 2.033274924838218
+  },
+  "participant_oracle_envelope_loss": 1.9416654147920198,
+  "personal_vs_repeated_base": {
+    "candidate_mean_loss": 1.0011146021139996,
+    "reference_mean_loss": 0.9978723159516207,
+    "mean_reduction": -0.0032422861623790217,
+    "relative_mean_reduction": -0.003249199432180876,
+    "participants_improved": 3,
+    "participant_differences": [
+      -0.09155749468202723,
+      -0.03933005105255449,
+      -0.03404099633291813,
+      0.06488387542154317,
+      0.03964411729662409,
+      -0.03405499061219236,
+      0.0717595368248718
+    ]
+  }
+}
