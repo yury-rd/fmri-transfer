@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fmri-connectivity-prediction"
+version = "1.0.0"
+description = "Personalized prediction of differences in fMRI connectivity estimates across preprocessing pipelines"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [
+    {name = "Yury Maximov"},
+    {name = "Aleksandr Volkov"},
+    {name = "Tamoghna Chattopadhyay"},
+    {name = "Paul M. Thompson"},
+    {name = "Ildar Gabitov"},
+]
+dependencies = ["numpy>=2.2,<3", "threadpoolctl>=3.5,<4"]
+
+[tool.setuptools]
+packages = ["fmri_response"]
