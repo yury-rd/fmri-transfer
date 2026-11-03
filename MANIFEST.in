@@ -1,0 +1,6 @@
+include run.py requirements.txt CITATION.md DATA_LICENSES.md
+prune data
+prune local-data
+prune results
+exclude tests/expected_demo.json
+global-exclude *.npy *.npz *.csv *.tsv

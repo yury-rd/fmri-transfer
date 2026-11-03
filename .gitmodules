@@ -1,0 +1,4 @@
+[submodule "data"]
+	path = data
+	url = https://github.com/yury-rd/fmri-transfer-data.git
+	branch = data
